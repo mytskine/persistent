@@ -45,7 +45,7 @@ library
         c-sources:   cbits/sqlite3.c
         include-dirs: cbits
         cc-options:  -fPIC -std=c99 -DSQLITE_ENABLE_ICU
-        extra-libraries: icui18n
+        extra-libraries: icui18n icuuc
 
     c-sources: cbits/config.c
 
